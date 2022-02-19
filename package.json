@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
-    "build": "webpack --config ./build/webpack.build.conf.js"
+    "build": "webpack --config ./build/webpack.build.conf.js",
+    "compile:sass": "sass --watch"
   },
   "browserslist": [
     "> 1%",
@@ -30,16 +31,19 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
     "@popperjs/core": "^2.11.2",
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "autoprefixer": "^9.8.5",
+    "autoprefixer": "^9.8.8",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.1.1",
@@ -49,6 +53,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
+    "sass": "^1.49.8",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "vue-loader": "^15.9.3",
@@ -58,5 +63,6 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.0.9"
-  }
+  },
+  "homepage": "https://github.com/vedees/webpack-template#readme"
 }
