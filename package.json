@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
     "build": "webpack --config ./build/webpack.build.conf.js",
-    "compile:sass": "sass --watch"
+    "compile:sass": "sass --watch src/assets/scss/main.scss:src/assets/css/main.css"
   },
   "browserslist": [
     "> 1%",

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;+EAE+E;ACF/E;+EAC+E;AAmC/E;;gFAEgF;AAEhF;;;;;;;;;;;;;;;;;;;;EAoBE;ADtDF;;;;EAIE;AAIF;;;;;;;;;;EAUE;AAIF;;;EAGE",
+    "sources": [
+        "../src/assets/scss/utils/fonts.scss",
+        "../src/assets/scss/utils/mixins.scss"
+    ],
+    "names": [],
+    "file": "fonts.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;+EAE+E",
+    "sources": [
+        "../src/assets/scss/utils/libs.scss"
+    ],
+    "names": [],
+    "file": "libs.css"
+}

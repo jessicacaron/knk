@@ -1,1 +1,367 @@
-/* Example css file */
+body {
+  background-color: antiquewhite;
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.headings h1 {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: whitesmoke;
+  padding-top: 3rem;
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(#eee, #1797A2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headings h2 {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: whitesmoke;
+  padding-top: 3rem;
+  font-size: 2.3rem;
+  text-align: center;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(#eee, #1797A2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headings h3 {
+  padding-top: 2rem;
+  padding-left: 6rem;
+  color: #1797A2;
+}
+
+hr {
+  width: 725px;
+  color: gray;
+  background-color: gray;
+  margin-left: 5rem;
+}
+
+.underline {
+  margin: 0 auto;
+  width: 60%;
+  border-bottom: 1px solid #1797A2;
+  text-align: center;
+  position: relative;
+}
+
+.underline span {
+  position: relative;
+  top: 18px;
+  padding: 0 10px;
+  background: #fff;
+  color: #969696;
+  font-size: 25px;
+}
+
+.navigation {
+  background-color: black;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+.navigation img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar {
+  background-color: #222121;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.296), #0e5d64), url("../img/semi1.jpg");
+  height: 70vh;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+}
+.hero .row {
+  height: 100%;
+}
+.hero .row .col {
+  color: azure;
+  height: 100%;
+  padding-top: 6rem;
+}
+.hero .row .col img {
+  width: 50%;
+  max-height: 45%;
+}
+.hero .row .col a, .hero .row .col a:active, .hero .row .col a:visited {
+  background-color: #1797A2;
+  border: 1px solid #1797A2;
+  color: #fff;
+}
+.hero .row .col a:hover {
+  background-color: #222121;
+  border: 1px solid #222121;
+  color: #84dce4;
+}
+.hero .row .col2 {
+  background-color: rgba(59, 61, 61, 0.5);
+}
+
+.main {
+  width: 100%;
+  padding: 0;
+}
+.main .foo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.main .foo p {
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+}
+.main .col {
+  padding: 1rem;
+}
+.main .col img {
+  width: 100%;
+}
+.main .col p {
+  font-size: 1.2rem;
+}
+.main .row2 {
+  width: 60%;
+  margin: 0 auto;
+}
+.main .contact-info {
+  margin: 0 auto;
+}
+.main .contact-info ul {
+  margin-top: 3rem;
+}
+.main .contact-info ul > li {
+  font-size: 1.5rem;
+  list-style: none;
+}
+.main .contact-info i {
+  color: #1797A2;
+  font-size: 2rem;
+}
+.main .highlights {
+  padding-top: 3rem;
+  background-color: #222121;
+  color: #fff;
+}
+.main .highlights .row {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.main .highlights .row i {
+  font-size: 3rem;
+}
+.main .highlights .row h4 {
+  font-size: 1.8rem;
+}
+.main .highlights .row p {
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  padding: 2rem;
+  font-size: 1rem;
+}
+.main .call-to-action {
+  margin-bottom: 7rem;
+  /* On mouse-over, add a deeper shadow */
+  /* Add some padding inside the card container */
+  /* Add rounded corners to the top left and the top right corner of the image */
+}
+.main .call-to-action h4 {
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+.main .call-to-action p {
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.main .call-to-action .row {
+  width: 90%;
+  margin: 0 auto;
+}
+.main .call-to-action .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  /* 5px rounded corners */
+}
+.main .call-to-action .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.main .call-to-action .container {
+  padding: 2px 16px;
+}
+.main .call-to-action img {
+  border-radius: 5px 5px 0 0;
+}
+.main button {
+  margin: 0 auto;
+  background-color: #1797A2;
+  border: 2px solid #a0a0a0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  color: #fff;
+}
+.main button:hover, .main button:active, .main button:visited {
+  background-color: #11676f;
+  border: 2px solid lightgray;
+  color: #fff;
+}
+.main .contact-form {
+  width: 200px;
+  margin: 0 auto;
+}
+.main .shop {
+  background-image: url("../img/shop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.work {
+  margin-top: 1rem;
+}
+.work .underline {
+  margin-bottom: 3rem;
+}
+.work .gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+.work .gallery .headings h3 {
+  margin-bottom: 2rem;
+}
+.work .gallery .row {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.work .gallery .row .col {
+  margin-bottom: 3rem;
+}
+.work .gallery .row .col img {
+  width: 100%;
+}
+.work .gallery .row2 {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.work .gallery .row2 .col {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.work .gallery .row2 .col img {
+  width: 100%;
+}
+
+.directions {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.directions a {
+  margin: auto;
+  background-color: #1797A2;
+  border: 2px solid #a0a0a0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  color: #fff;
+}
+.directions a:hover {
+  background-color: #11676f;
+  border: 2px solid lightgray;
+  color: #fff;
+}
+.directions a .headings .underline {
+  padding-bottom: 2rem;
+}
+.directions .direction-button {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  width: 120px;
+}
+.directions .map {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.other-services {
+  margin: 0 auto;
+  width: 60%;
+  font-size: 1.5rem;
+}
+.other-services .col1 {
+  margin-bottom: 0;
+}
+.other-services .col2 {
+  padding-top: 0;
+}
+.other-services .list {
+  padding: 1rem;
+}
+.other-services .list ul > li {
+  list-style-position: outside;
+}
+
+.footer {
+  padding-top: 3rem;
+  background-color: #3c3d3d;
+  height: 35vh;
+}
+.footer .col1 {
+  border-right: 1px solid #e3fdff;
+}
+.footer .col2 {
+  color: #1797A2;
+  font-size: 2.3rem;
+}
+.footer .col2 i {
+  padding: 1.3rem;
+}
+.footer .footer-list {
+  text-align: center;
+  padding: 1rem;
+}
+.footer .footer-list ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.footer .footer-list ul li a:link {
+  text-decoration: none;
+  color: #1797A2;
+}
+.footer .footer-list ul li a:visited {
+  text-decoration: none;
+  color: #1797A2;
+}
+.footer .footer-list ul li a:hover {
+  text-decoration: underline;
+  color: #84dce4;
+}
+.footer .footer-list ul li a:active {
+  text-decoration: underline;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 350ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
