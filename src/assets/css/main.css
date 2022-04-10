@@ -1,15 +1,16 @@
-body {
+body, html {
   background-color: antiquewhite;
   font-family: "Rajdhani", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
 .headings h1 {
+  padding: 1rem;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: whitesmoke;
   padding-top: 3rem;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   text-align: center;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(#eee, #1797A2);
