@@ -34,6 +34,9 @@
               <li class="nav-item">
                 <a class="nav-link active" href="contact.html">Contact</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>     
               
             </ul>
           </div>
@@ -43,9 +46,9 @@
 
     <section class="main">
       <div>
-        <div class="row">
-          <div class="col col-12 col-md-6 shop">
-            <!-- <img src="/src/assets/img/shop.jpg" alt=""> -->
+        <div class="row contact d-flex align-items-center">
+          <div class="col col-12 col-md-6 shop d-flex align-items-center">
+            <img src="assets/img/shop2.jpg" alt="">
           </div>
           <div class="col col-12 col-md-6">
             <div class="headings">
@@ -90,29 +93,69 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputText1" class="form-label">Request</label>
+                          <input type="text" class="form-control" id="exampleInputText1">
+                        </div>
+                        
+                      </form>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <a href="contact.html"><button type="button" class="btn btn-primary">Submit</button></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
+          <div class="hours text-center">
+            <hr>
+            <h3 class="mt-4 pt-4">Hours of Operation</h3>
+            <p>
+              Monday - Saturday <br>
+              9:00am - 5:00pm <br>
+            </p>
+            <hr>
+            <h3 class="mt-4 pt-4">Payment Methods</h3>
+            <div class="row px-4 mx-4 payment">
+              <div class="col col-md-6 col-lg-3 col-12">
+                <p><i class="fas fa-credit-card"></i> Credit Cards </p>
+              </div>
+              <div class="col col-md-6 col-lg-3 col-12">
+                <p><i class="fas fa-money-check"></i> Check </p>
+              </div>
+              <div class="col col-md-6 col-lg-3 col-12">
+                <p><i class="fas fa-money-bill-wave"></i> Cash </p>
+              </div>
+              <div class="col col-md-6 col-lg-3 col-12">
+                <p><i class="fas fa-university"></i> Bank Transfer</p>
+              </div>
+            </div>
+
+              <hr>
+          </div>
+
         </div>
       </div>
+
     </section>
 
-      <section class="directions">
-        <div class="headings">
-          <h1>Directions</h1>
-          <div class="underline">
-            <span>
-              <i class="fas fa-tools"></i>              
-            </span>
-          </div>
+    <section class="directions">
+      <div class="headings">
+        <h1>Directions</h1>
+        <div class="underline">
+          <span>
+            <i class="fas fa-tools"></i>              
+          </span>
+        </div>
       </div>
       <div class="row">
         <div class="col">
@@ -124,43 +167,48 @@
         </div>
         
       </div>
-      
-      </section>
+    
+    </section>
 
-      <section class="footer">
-        <footer>
-          <div class="containter footer-list">
-            <div class="row">
-              <div class="col col1 col-6 text-center">
-                <ul>
-                  <li>
-                    <a href="index.html" class="">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="services.html" class="">
-                      Services
-                    </a>
-                  </li>
-                  
-                  <li>
-                    <a href="contact.html" class="">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col col2 col-6">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-tiktok"></i>
-              </div>
+    <section class="footer">
+      <footer>
+        <div class="containter footer-list">
+          <div class="row">
+            <div class="col col1 col-6 text-center">
+              <ul>
+                <li>
+                  <a href="index.html" class="">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="services.html" class="">
+                    Services
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="contact.html" class="">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="blog.html" class="">
+                    Blog
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col2 col-6">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-tiktok"></i>
             </div>
           </div>
+        </div>
 
-        </footer>
-      </section>
+      </footer>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>

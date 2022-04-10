@@ -30,15 +30,13 @@ body {
 }
 .headings h3 {
   padding-top: 2rem;
-  padding-left: 6rem;
   color: #1797A2;
 }
 
 hr {
-  width: 725px;
   color: gray;
   background-color: gray;
-  margin-left: 5rem;
+  margin-top: 3rem;
 }
 
 .underline {
@@ -56,6 +54,18 @@ hr {
   background: #fff;
   color: #969696;
   font-size: 25px;
+}
+
+.all-btn, .all-btn:active, .all-btn:visited {
+  background-color: #1797A2;
+  border: 1px solid #1797A2;
+  color: #fff;
+}
+
+.all-btn:hover {
+  background-color: #222121;
+  border: 1px solid #222121;
+  color: #609ea4;
 }
 
 .navigation {
@@ -92,16 +102,6 @@ hr {
   width: 50%;
   max-height: 45%;
 }
-.hero .row .col a, .hero .row .col a:active, .hero .row .col a:visited {
-  background-color: #1797A2;
-  border: 1px solid #1797A2;
-  color: #fff;
-}
-.hero .row .col a:hover {
-  background-color: #222121;
-  border: 1px solid #222121;
-  color: #84dce4;
-}
 .hero .row .col2 {
   background-color: rgba(59, 61, 61, 0.5);
 }
@@ -110,12 +110,28 @@ hr {
   width: 100%;
   padding: 0;
 }
-.main .foo {
+.main .contact h3 {
+  color: #1797A2;
+}
+.main .contact p {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+}
+.main .contact .payment .row {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+}
+.main .contact .payment i {
+  padding-top: 1rem;
+  color: #1797A2;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 .main .foo p {
   font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+}
+.main .foo .col1 img {
+  max-width: 80%;
 }
 .main .col {
   padding: 1rem;
@@ -137,12 +153,12 @@ hr {
   margin-top: 3rem;
 }
 .main .contact-info ul > li {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   list-style: none;
 }
 .main .contact-info i {
   color: #1797A2;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .main .highlights {
   padding-top: 3rem;
@@ -164,8 +180,11 @@ hr {
   padding: 2rem;
   font-size: 1rem;
 }
+.main .highlights .row h3, .main .highlights .row h6, .main .highlights .row ul > li {
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+}
 .main .call-to-action {
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
   /* On mouse-over, add a deeper shadow */
   /* Add some padding inside the card container */
   /* Add rounded corners to the top left and the top right corner of the image */
@@ -208,7 +227,6 @@ hr {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 26px;
   color: #fff;
 }
 .main button:hover, .main button:active, .main button:visited {
@@ -220,13 +238,6 @@ hr {
   width: 200px;
   margin: 0 auto;
 }
-.main .shop {
-  background-image: url("../img/shop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px;
-}
-
 .work {
   margin-top: 1rem;
 }
@@ -261,10 +272,21 @@ hr {
 .work .gallery .row2 .col img {
   width: 100%;
 }
+.work .brands {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.296), #858889), url("../img/brandtruck.jpg");
+  background-size: cover;
+  color: #222121;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  padding: 3rem;
+}
+.work .brands img {
+  width: 35%;
+}
 
 .directions {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .directions a {
   margin: auto;
@@ -276,7 +298,6 @@ hr {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
   color: #fff;
 }
 .directions a:hover {
@@ -295,7 +316,7 @@ hr {
 }
 .directions .map {
   margin: 0 auto;
-  width: 60%;
+  width: 85%;
 }
 
 .other-services {
@@ -303,23 +324,16 @@ hr {
   width: 60%;
   font-size: 1.5rem;
 }
-.other-services .col1 {
+.other-services .col1, .other-services col2 {
   margin-bottom: 0;
-}
-.other-services .col2 {
-  padding-top: 0;
-}
-.other-services .list {
-  padding: 1rem;
 }
 .other-services .list ul > li {
   list-style-position: outside;
 }
 
 .footer {
-  padding-top: 3rem;
+  padding: 1.5rem;
   background-color: #3c3d3d;
-  height: 35vh;
 }
 .footer .col1 {
   border-right: 1px solid #e3fdff;
@@ -349,7 +363,7 @@ hr {
 }
 .footer .footer-list ul li a:hover {
   text-decoration: underline;
-  color: #84dce4;
+  color: #5fa3a9;
 }
 .footer .footer-list ul li a:active {
   text-decoration: underline;
@@ -362,6 +376,47 @@ hr {
 
 .fade-in.appear {
   opacity: 1;
+}
+
+.tag-line a {
+  margin-bottom: 3rem;
+}
+.tag-line h3 {
+  padding: 3rem;
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 2.3rem;
+  color: #969696;
+}
+
+.faq {
+  padding-bottom: 5rem;
+}
+.faq h1 {
+  color: #1797A2;
+  padding-top: 3rem;
+}
+.faq img {
+  padding-top: 3rem;
+}
+.faq .col1 {
+  padding: 5rem;
+  padding-top: 0rem;
+}
+.faq .col2 {
+  background-color: #bdc1c2;
+  border-radius: 25px 0px 0px 25px;
+}
+.faq .col2 h2 {
+  color: #1797A2;
+  font-size: 1.4rem;
+}
+.faq .col2 ul > li {
+  font-size: 0.9em;
+}
+
+.main-diy {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
